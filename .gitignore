@@ -1,0 +1,13 @@
+**/node_modules/
+**/dist/
+**/coverage/
+**/*.tsbuildinfo
+**/.env
+**/.env.*
+!**/.env.example
+**/*.log
+.idea/
+*.iml
+work/
+**/*.pem
+**/*.key

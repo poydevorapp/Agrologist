@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\api",
+    "\\app\\api\\backend",
+    "\\app\\api\\backend\\[...path]",
+    "\\app\\buyer",
+    "\\app\\farmer",
+    "\\app\\login",
+    "\\app\\register",
+    "\\app\\transporter",
+    "\\components",
+    "\\lib"
+  ],
+  "PreviewInSolutionExplorer": false
+}
