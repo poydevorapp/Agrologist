@@ -35,6 +35,11 @@ export default function HomePage() {
         <div className="role-grid">
           {roles.map((role) => <Link className="role-card" href={role.href} key={role.href}><h3>{t(role.name)}</h3><p>{t(role.text)}</p><span>{t('home.open')} →</span></Link>)}
         </div>
+        <div className="home-proof-grid">
+          <article className="feature-panel"><span className="feature-number">01 / {t('role.FARMER')}</span><h2>{t('home.farmer')}</h2><p>{t('home.features')}</p></article>
+          <article className="feature-panel feature-panel-accent"><span className="feature-number">02 / {t('role.BUYER')}</span><h2>{t('home.buyer')}</h2><p>{t('home.connected')}</p></article>
+          <article className="feature-panel"><span className="feature-number">03 / {t('role.TRANSPORTER')}</span><h2>{t('home.transporter')}</h2><p>{t('home.subtitle')}</p></article>
+        </div>
       </section>
     </>
   );
